@@ -1,0 +1,11 @@
+npx cypress install --force
+npx cypress open 
+npx cypress run   or  npm test
+npx cypress run --spec the-test-file
+npx cypress run --spec cypress/integration/todomvc-actions.spec.js
+
+npm install @applitools/eyes-cypress
+npx eyes-setup
+
+export APPLITOOLS_API_KEY= {yourAPIKey}
+set APPLITOOLS_API_KEY= {yourAPIKey}
