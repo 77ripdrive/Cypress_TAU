@@ -2,7 +2,14 @@
 
 Simple test project with Cypress.
 
-# To use cypress with CLI
+ Required: NodeJS
+ 
+# To run simple examples
+
+* `npm install`
+* `npx cypress run --spec the-test-file`
+
+# To work with a project from scratch
 
 * `npx cypress install --force`   flag '-- force' will help resolve the issue if the standard installation was unsuccessful
 * `npx cypress open` 
