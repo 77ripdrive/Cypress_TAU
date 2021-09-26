@@ -1,7 +1,6 @@
-# TodoTAU-Cypress 
-[TAU](https://testautomationu.applitools.com/)
+# UI tests with Cypress 
+[Test Automation University](https://testautomationu.applitools.com/)
 
-Simple test project with Cypress.
 
  Required: NodeJS
  
