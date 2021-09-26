@@ -1,3 +1,21 @@
 {
-    "watchForFileChanges ": false
+    "baseUrl": "yuor url",
+    "chromeWebSecurity": false,
+    "multiple": true,
+    "env": {
+        "user":"name",
+        "pass":"pass",        
+        "gqlUrl": "url"       
+    },
+    "defaultCommandTimeout": 150000,
+    "pageLoadTimeout": 80000,
+    "reporter": "cypress-mochawesome-reporter",
+    "video": false,
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+    }
 }
